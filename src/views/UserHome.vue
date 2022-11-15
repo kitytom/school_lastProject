@@ -20,7 +20,7 @@
         <router-link to="/getdool">接单</router-link>
         <router-link to="/sell">出售</router-link>
         <router-link to="/shion">发货情况</router-link>
-        <router-link to="/getgood">收货情况</router-link>
+        <router-link to="/home">返回首页</router-link>
         <router-link to="/information">资料分享</router-link>
         <router-link to="/income">收益</router-link>
         <router-link to="/message">消息</router-link>
@@ -92,7 +92,7 @@ export default {
 }
 .center-box{
   width: 100%;
-  height: 900px;
+  height: 633px;
   display: flex;
 }
 .aside-left{
@@ -119,6 +119,6 @@ export default {
 .aside-right{
   width: 1380px;
   margin-left: 140px;
-  background-color: rgb(159, 204, 204);
+  background-color: rgb(137, 150, 150);
 }
 </style>

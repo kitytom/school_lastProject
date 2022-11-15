@@ -12,16 +12,18 @@ import MessagePAge from '../components/user/MessagePage'
 import InCome from '../components/user/InCome'
 import CollectionPage from '../components/user/CollectionPage'
 import SetUp from '../components/user/SetUp'
+import TingHom from '../views/TingHom'
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/', component: HomePage },
   { path: '/home', component: HomePage },
+  { path: '/tinghom', component: TingHom },
   {
     path: '/user',
     component: UserHome,
-    redirect: '/getdool',
+    redirect: '/sell',
     children: [
       { path: '/getdool', component: UserGetdool },
       { path: '/sell', component: SellPage },

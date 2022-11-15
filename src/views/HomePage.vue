@@ -7,11 +7,11 @@
           <dv-decoration-3 style="width:200px;height:30px;" :color="['#CFF8FE','#63DEE1']" />
           </div>
           <div class="nav-item">
-            <router-link to="/user">首页</router-link>|
+            <router-link to="/">首页</router-link>|
             <a href="#">前端</a>|
             <a href="#">后端项目</a>|
             <router-link to="/user">个人中心</router-link>|
-            <a href="#">交易大厅</a>
+            <router-link to="/tinghom">交易大厅</router-link>
          </div>
          <div class="nav-user">
             <ul>
@@ -31,7 +31,7 @@
                       </div>
                         <div class="srarchbotom-nav">
                           <a href="#">发起招募</a>|
-                          <a href="#">接单</a>|
+                          <router-link to="/user">接单</router-link>|
                           <a href="#">探讨</a>
                         </div>
                     </li>
@@ -182,7 +182,7 @@
         <!-- bottom -->
         <div class="company">
           <div>
-           1
+             1
           </div>
           <div>
              2
@@ -191,7 +191,7 @@
              3
           </div>
           <div>
-            4
+              4
           </div>
         </div>
     </div>
@@ -199,7 +199,7 @@
     <div class="right-aside">
         <div>发起招募</div>
         <div><router-link to="/user">个人中心</router-link> </div>
-        <div>接单</div>
+        <div><router-link to="/user">出售</router-link></div>
     </div>
   </div>
 </template>
